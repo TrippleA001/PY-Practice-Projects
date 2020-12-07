@@ -1,0 +1,11 @@
+verse = "If you can keep your head when all about you\n  Are losing theirs and blaming it on you,\nIf you can trust yourself when all men doubt you,\n  But make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\n  Or being lied about, don’t deal in lies,\nOr being hated, don’t give way to hating,\n  And yet don’t look too good, nor talk too wise:"
+print(verse)
+length =len(verse)
+print(length)
+first_occurence = verse.find('and')
+print(first_occurence)
+last_occurence = verse.rfind('you')
+print(last_occurence)
+you_count=verse.count('you')
+print(you_count)
+print("The length of the string variable verse is {}, the index of the first occurence of the word 'and' is {}, the index of the last occurence of the word 'you' is {} and the word 'you' occurs {} times in this verse.".format( length, first_occurence, last_occurence, you_count))
